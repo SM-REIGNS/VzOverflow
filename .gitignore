@@ -1,0 +1,33 @@
+# Environment files with secrets
+.env
+*.env.local
+.env.*.local
+.env.production
+.env.production.local
+
+# Keep example
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Build
+target/
+build/
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.swp
